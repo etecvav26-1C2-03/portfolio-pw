@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulosi Cioccolato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--Cabeçalho-->
+    <div id="header">
+        <h1>Gulosi Cioccolato</h1>
+    </div>
+<!--Sobre a marca-->
+    <div id="sobre">
+        <h2>- Sobre a Gulosi Cioccolato:</h2>
+        <div id="descrisao">
+            <br><p>A <strong>Gulosi Cioccolato</strong> nasceu da paixão por transformar o <strong>chocolate</strong> em obras de arte. 
+            <br>Cada receita é <strong>cuidadosamente</strong> elaborada com ingredientes selecionados, 
+            trazendo <strong>elegância e sofisticação</strong> em cada pedaço.
+            Nosso compromisso é oferecer uma experiência única, 
+            onde <strong>sabor</strong> e requinte se encontram. E tudo isso enquanto agradamos ao paladar de nosso cliente.</p>
+        </div>
+    </div>    
+<!--Produtos-->
+    <div id="produtos">
+        <br><h2>- Nossos Sabores:</h2>
+    </div>
+<!--Barra de navegação-->
+    <nav id="navbar">
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+<!--Menu oculto-->
+    <ul id="side-menu">
+        <li><a href="#sobre"><strong>Sobre Nós</strong></a></li>
+    </ul>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById("side-menu");
+            menu.classList.toggle("show");
+        }
+    </script>
+
+</body>
+</html>
