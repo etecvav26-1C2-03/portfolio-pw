@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML_TAGS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="layout">
+    <nav class="sidebar">
+        <h2>Menu</h2>
+        <a href="#marcadores">Marcadores</a>
+        <a href="#semanticas">Semânticas</a>
+        <a href="#interativas">Interativas</a>
+        <a href="#estruturais">Estruturais</a>
+        <a href="#creditos">Créditos</a>
+    </nav>
+
+<main class="conteudo">
+    <section id="marcadores">
+    <h2>Marcadores:</h2>
+    <div class="cards">
+        <div class="card">
+            <h3><code>&lt;mark&gt;</code></h3>
+            <p>Destaca um texto.</p>
+            <p>Exemplo: <mark>texto destacado</mark></p>
+        </div>
+
+        <div class="card">
+            <h3><code>&lt;small&gt;</code></h3>
+            <p>Texto de tamanho menor.</p>
+            <p>Exemplo: <small>texto de menor importância</small></p>
+        </div>
+
+        <div class="card">
+            <h3><code>&lt;del&gt;</code></h3>
+            <p>Texto removido ou substituido.</p>
+            <p>Exemplo: <del>Removido</del></p>
+        </div>
+
+        <div class="card">
+            <h3><code>&lt;ins&gt;</code></h3>
+            <p>Texto inserido.</p>
+            <p>Exemplo: <ins>sublinhado</ins></p>
+        </div>
+
+        <div class="card">
+            <h3><code>&lt;sup&gt;</code></h3>
+            <p>Texto sobrescrito.</p>
+            <p>Exemplo: x<sup>2</sup></p>
+        </div>
+
+        <div class="card">
+            <h3><code>&lt;sub&gt;</code></h3>
+            <p>Texto subscrito</p>
+            <p>Exemplo: x<sub>2</sub></p>
+        </div>
+    </div>
+    </section>
+
+    <section id="semanticas">
+    <h2>Semânticas</h2>
+    <div class="cards">
+        <div class="card">
+            <h3><code>&lt;abbr&gt;</code></h3>
+            <p>Abreviação.</p>
+            <p>Exemplo: <abbr title="HyperText Markup Language">HTML</abbr></p>
+        </div>
+
+        <div class="card">
+            <h3><code>&lt;cite&gt;</code></h3>
+            <p>Titulo de obra.</p>
+            <p>Exemplo: <cite>Trono de vidro</cite> de Sarah J. Maas</p>
+        </div>
+
+        <div class="card">
+            <h3><code>&lt;blockquote&gt;</code></h3>
+            <p>Citações longas de outras fontes.</p>
+            <p>Exemplo: <blockquote>o conhecimento é poder.</blockquote></p>
+        </div>
+
+        <div class="card">
+            <h3><code>&lt;time&gt;</code></h3>
+            <p>Data e horário.</p>
+            <p>Exemplo: <time datetime="2026-03-07">7 de março de 2026</time></p>
+        </div>
+
+        <div class="card">
+            <h3><code>&lt;address&gt;</code></h3>
+            <p>Informações de contato.</p>
+            <p>Exemplo: <address>Email: Felipessantosbsa@gmail.com</address></p>
+        </div>
+
+        <div class="card">
+            <h3><code>&lt;q&gt;</code></h3>
+            <p>Citação curta.</p>
+            <p>Exemplo: <q>Diga-me com quem andas e eu te direi quem tu és</q></p>
+        </div>
+    </div>
+    </section>
+    <section id="interativas">
+
+    <h2>Tags Interativas</h2>
+    <div class="cards">
+
+        <div class="card">
+            <h3><code>&lt;details&gt;</code></h3>
+            <p>Expandir ou ocultar conteúdo.</p>
+            <h3><code>&lt;summary&gt;</code></h3>
+            <p>Titulo visivel de details.</p>
+            <p>Exemplo: </p> <details><summary>
+                Abra:
+            </summary>
+            <strong><q>Que a Força esteja com você</q></strong>
+            </details>
+        </div>
+
+        <div class="card">
+            <h3><code>&lt;progress&gt;</code></h3>
+            <p>Barra de progresso.</p>
+            <p>Exemplo: <progress value="60" max="100"></progress></p>
+            <h3><code>&lt;meter&gt;</code></h3>
+            <p>Medida dentro de um intervalo.</p>
+            <p>Exemplo: <meter value="7" min="0" max="10"></meter></p>
+        </div>
+
+        <div class="card">
+            <h3><code>&lt;textarea&gt;</code></h3>
+            <p>Campo de texto (input).</p>
+            <p>Exemplo: <textarea rows="2" cols="25" placeholder="Escreva seu texto"></textarea></p>
+            <h3><code>&lt;button&gt;</code></h3>
+            <p>Botão interagivel.</p>
+            <p>Exemplo: <button type="button">Enviar Texto</button></p>
+        </div>
+    </div>
+    </section>
+    <section id="estruturais">
+    <h2>Tags Estruturais</h2>
+    <div class="cards">
+
+        <div class="card">
+            <h3><code>&lt;header&gt;</code></h3>
+            <p>Cabeçalho da estrutura HTML</p>
+            <h3><code>&lt;main&gt;</code></h3>
+            <p>Corpo da estrutura HTML</p>
+            <h3><code>&lt;footer&gt;</code></h3>
+            <p>Rodapé da estruturaHTML</p>
+        </div>
+
+        <div class="card">
+            <h3><code>&lt;nav&gt;</code></h3>
+            <p>Área de navegação do site</p>
+            <p>Exemplo:</p> <nav>
+                <a href="#marcadores">Marcadores</a>
+                <br> <br>
+                <a href="#semanticas">Semânticas</a>
+                <br> <br>
+                <a href="#interativas">Interativas</a>
+                <br> <br>
+                <a href="#estruturais">Estruturais</a>
+            </nav>
+        </div>
+
+        <div class="card">
+            <h3><code>&lt;figure&gt;</code></h3>
+            <p>Agrupar conteúdo visual com descrição</p>
+            <h3><code>&lt;figcaption&gt;</code></h3>
+            <p>Legenda da &lt;figure&gt;</p>
+            <figure>
+                <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="logo do html" width="50" height="50">
+                <figcaption><small>Logo oficial do HTML</small></figcaption>
+            </figure>
+        </div>
+    </div>
+    </section>
+    <section id="creditos">
+        <div class="cards">
+            <div class="card">
+                <h2>Felipe Barbosa Santos</h2>
+                <a href="https://github.com/felipessantosbsa-cyber">GitHub</a>
+            </div>
+            <div class="card">
+                <h2>Gabriel Fernandes Barbarini</h2>
+                <address>gabrielfernandesbarbarini@gmail.com</address>
+            </div>
+        </div>
+    </section>
+</main>
+</div>
+</body>
+</html>
