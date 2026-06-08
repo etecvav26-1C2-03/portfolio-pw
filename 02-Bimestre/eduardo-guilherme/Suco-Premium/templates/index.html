@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <!--header-->
+    <header>
+        <h1>Sucos-Premium🍊</h1>
+    </header>
+    <!--nav-->
+    <nav>
+        <a href="produtos.html">Produtos</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+    <!--section-->
+    <section id="section-home">
+        <h2 class="h2">Proposta da Marca</h2>
+        <p class="p">- Temos a proposta de se tornar a maior marca de sucos gourmet do Brasil e tudo isso vai ser graças a colaboração entre o Cliente (você) e a marca (nós). E os nossos sucos não são tão simples... Eles possuem uma alta refinação na produção, além de termos sucos especiais feitos especificamente para você! E temos também diversas avaliações que comprovam a nossa qualidade.</p>
+        
+        <!--button-adm-->
+        <input type="password" id="senha" placeholder="...">
+        <button onclick="mostrarCEP()">...</button>
+        <p id="msg"></p>
+        
+        <!--table-->
+        <table>
+            <tr>
+                <th>Cliente</th>
+                <th>Idade</th>
+                <th class="cep-col">CEP</th>
+                <th>Gênero</th>
+              </tr>
+              <tr>
+                <td>Felipe Barbosa</td>
+                <td>16</td>
+                <td class="cep-col">47400-000 (Brasil, BA)</td>
+                <td>Masculino</td>
+              </tr>
+              <tr>
+                <td>Raphael Davi</td>
+                <td>15</td>
+                <td class="cep-col">27949-316 (Brasil, RJ)</td>
+                <td>Masculino</td>
+              </tr>
+              <tr>
+                <td>Kevin Silva</td>
+                <td>19</td>
+                <td class="cep-col">41900-000 (Brasil, BA)</td>
+                <td>Masculino</td>
+              </tr>
+              <tr>
+                <td>Claudia Martins</td>
+                <td>21</td>
+                <td class="cep-col">12090-490 (Brasil, SP)</td>
+                <td>Feminino</td>
+              </tr>
+              <tr>
+                <td>Márcia Massa</td>
+                <td>52</td>
+                <td class="cep-col">68515-000 (Brasil, PA)</td>
+                <td>Feminino</td>
+              </tr>
+              <tr>
+                <td>Otavio Garcia</td>
+                <td>14</td>
+                <td class="cep-col">57958-970 (Brasil, AL)</td>
+                <td>Masculino</td>
+              </tr>
+              <tr>
+                <td>Pérola Santos</td>
+                <td>72</td>
+                <td class="cep-col">64440-970 (Brasil, PI)</td>
+                <td>Feminino</td>
+              </tr>
+        </table>
+    </section>
+    <!--footer-->
+    <footer>
+        <p>© 2026 GHV Sucos-Premium🍊 - Todos os direitos reservados.</p>
+    </footer>
+    <!--script-->
+    <script>
+      function mostrarCEP() {
+          const senha = document.getElementById("senha").value;
+          const msg = document.getElementById("msg");
+      
+          const senhaCorreta = "1985";
+      
+          if (senha === senhaCorreta) {
+              document.querySelectorAll(".cep-col").forEach(el => {
+                  el.style.display = "table-cell";
+              });
+          }
+      }
+      </script>
+</body>
+</html>
