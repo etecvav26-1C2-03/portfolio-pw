@@ -38,6 +38,7 @@
 | M4 | Site da Marca | 18/04/2026 | [Abrir](https://github.com/etecvav26-1C2-03/portfolio-pw/tree/main/01-Bimestre/gabriel-felipe/site-marca-felipe)| Felipe |
 | M5 | Site da Marca | 18/04/2026 | [Abrir](https://github.com/etecvav26-1C2-03/portfolio-pw/tree/main/01-Bimestre/gabriel-felipe/site-marca-gabriel)| Gabriel |
 | M6 | Site aleatório | N/A | [Abrir](https://github.com/etecvav26-1C2-03/portfolio-pw/tree/main/01-Bimestre/gabriel-felipe/site-pinguim)| Felipe e Gabriel |
+| M7 | Análise do Github do grupo | 30/04/2026 | Abrir |N/A |
 
 
 ---
@@ -48,12 +49,11 @@
 
 | Menção | Atividade | Data Entrega |Link | Obs|
 |--------|-----|-----|-|-|
-| M1 | ATV-CPP-001-lista-execicios.md | 07/05/2026|[Abrir](https://github.com/etecvav26-1C2-03/portfolio-pa/tree/main/02-Bimestre/eduardo-guilherme/linguagem-cpp/Lista-01-cpp)|Eduardo e Guilherme |
-| M2 | ATV-CPP-002-lista-execicios.md | 11/06/2026 | [Abrir](https://github.com/etecvav26-1C2-03/portfolio-pa/tree/main/02-Bimestre/eduardo-guilherme/linguagem-cpp/Lista-02-cpp)|Eduardo e Guilherme|
-| M3 | ATV-CPP-001-lista-execicios.md | 07/05/2026|[Abrir](https://github.com/etecvav26-1C2-03/portfolio-pa/tree/main/02-Bimestre/felipe-gabriel/linguagem-cpp/lista-1-cpp)|Felipe e Gabriel |
-| M4 | ATV-CPP-002-lista-execicios.md | 11/06/2026 | [Abrir](https://github.com/etecvav26-1C2-03/portfolio-pa/tree/main/02-Bimestre/felipe-gabriel/linguagem-cpp/lista-2-cpp)|Felipe e Gabriel|
-| M5 | Trabalho Final do bimestre | 18/06/2026 | [Abrir](https://github.com/etecvav26-1C2-03/portfolio-pa/tree/main/02-Bimestre/trabalho-git)|Nome do arquivo: trabalho-git |
-| M6 | Análise do Github do grupo | 18/06/2026 | Abrir |N/A |
+| M1 | Site aleatório | 20/06/2026 |[Abrir](https://github.com/etecvav26-1C2-03/portfolio-pw/tree/main/02-Bimestre/eduardo-guilherme/Suco-Premium)|Eduardo e Guilherme |
+| M2 | Site da profissão | 20/06/2026 | [Abrir]()|Eduardo e Guilherme |
+| M3 | Site aleatório | 20/06/2026 |[Abrir](https://github.com/etecvav26-1C2-03/portfolio-pw/tree/main/02-Bimestre/felipe-gabriel/html-tags)|Felipe e Gabriel |
+| M4 | Site da profissão | 20/06/2026 | [Abrir](https://github.com/etecvav26-1C2-03/portfolio-pw/tree/main/02-Bimestre/felipe-gabriel/site-web-designer)|Felipe e Gabriel |
+| M5 | Análise do Github do grupo | 18/06/2026 | Abrir |N/A |
 
 
 ---
