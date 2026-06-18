@@ -34,8 +34,8 @@
 |--------|-----|-----|-|-|
 | M1 | Site da Marca | 18/04/2026 | [Abrir](https://github.com/etecvav26-1C2-03/portfolio-pw/tree/main/01-Bimestre/eduardo-guilherme/eduardo/Gulosi%20Cioccolato)| Eduardo |
 | M2 | Site da Marca | 18/04/2026 | [Abrir](https://github.com/etecvav26-1C2-03/portfolio-pw/tree/main/01-Bimestre/eduardo-guilherme/guilherme/site-marca)| Guilherme |
-
-
+| M3 | Site da Marca | 18/04/2026 | [Abrir]()| Felipe |
+| M4 | Site da Marca | 18/04/2026 | [Abrir]()| Gabriel |
 
 
 ---
