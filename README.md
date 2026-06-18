@@ -13,7 +13,8 @@
 
 ### ➡️ Linguagem atual
 <img width="65" height="20" alt="image" src="https://github.com/user-attachments/assets/4255483b-e0b5-4670-b797-4e3d5ec28701" />
-<img width="65" height="20" alt="image" src="https://github.com/user-attachments/assets/5d5a6c28-2edb-41b0-86c7-5ffa06c493d6" />
+<img width="39" height="20" alt="image" src="https://github.com/user-attachments/assets/9a13feb4-014e-4045-bca4-a82b93457876" />
+
 
 
 
