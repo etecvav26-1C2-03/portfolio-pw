@@ -19,7 +19,7 @@
 
 
 ### ➡️ Futura linguagem
-<img width="67" height="20" alt="python-badge" src="https://github.com/user-attachments/assets/0af04d35-e6fb-400b-8525-3906567d71f9" />
+ https://img.shields.io/badge/just%20the%20message-8A2BE2
 
 ### 👥 Duplas
 
