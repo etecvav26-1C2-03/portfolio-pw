@@ -20,3 +20,14 @@
 
 ### ➡️ Futura linguagem
 <img width="67" height="20" alt="python-badge" src="https://github.com/user-attachments/assets/0af04d35-e6fb-400b-8525-3906567d71f9" />
+
+### 👥 Duplas
+
+- {Eduardo e Guilherme}
+- {Felipe e Gabriel}
+
+
+---
+
+
+## 📋 Cronograma - 1 Bimestre 
