@@ -15,9 +15,6 @@
 <img width="65" height="20" alt="image" src="https://github.com/user-attachments/assets/4255483b-e0b5-4670-b797-4e3d5ec28701" />
 <img width="39" height="20" alt="image" src="https://github.com/user-attachments/assets/9a13feb4-014e-4045-bca4-a82b93457876" />
 
-
-
-
 ### ➡️ Futura linguagem
 <img width="90" height="20" alt="image" src="https://img.shields.io/badge/javascript-yellow?logo=javascript" />
 
@@ -28,16 +25,3 @@
 
 
 ---
-
-
-## 📋 Atividades - 1 Bimestre 
-
-
-| Menção | Atividade | Link | Obs|
-|--------|-----|-|-|
-| M1 | Criar um site sobre uma marca criada pelo aluno | [Abrir](https://github.com/etecvav26-1C2-03/portfolio-pa/blob/main/01-Bimestre/1B-M1-Questionario.md)|Nome do arquivo: 1B-M1-Questionario.md |
-| M2 | ATV-POR-001-Lista-execicio-basico.md | [Abrir](https://github.com/etecvav26-1C2-03/portfolio-pa/tree/main/01-Bimestre/eduardo-guilherme/portugol/Lista-01-Portugol)|Eduardo e Guilherme |
-| M3 | ATV-POR-002-Lista-execicio-CMD-SE.md | [Abrir](https://github.com/etecvav26-1C2-03/portfolio-pa/tree/main/01-Bimestre/eduardo-guilherme/portugol/Lista-02-Portugol)|Eduardo e Guilherme |
-| M4 | ATV-POR-001-Lista-execicio-basico.md | [Abrir](https://github.com/etecvav26-1C2-03/portfolio-pa/tree/main/01-Bimestre/felipe-gabriel/portugol/Lista-1-portugol)|Felipe e Gabriel |
-| M5 | ATV-POR-002-Lista-execicio-CMD-SE.md | [Abrir](https://github.com/etecvav26-1C2-03/portfolio-pa/tree/main/01-Bimestre/felipe-gabriel/portugol/Lista-2-portugol)|Felipe e Gabriel |
-| M6 | Análise do Github do grupo | [Abrir]() |N/A |
