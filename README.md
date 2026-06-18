@@ -19,7 +19,7 @@
 
 
 ### ➡️ Futura linguagem
-<img width="39" height="20" alt="image" src="https://img.shields.io/badge/javascript-yellow?logo=javascript" />
+<img width="65" height="20" alt="image" src="https://img.shields.io/badge/javascript-yellow?logo=javascript" />
 
 ### 👥 Duplas
 
