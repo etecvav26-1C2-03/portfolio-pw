@@ -19,7 +19,7 @@
 
 
 ### ➡️ Futura linguagem
- https://img.shields.io/badge/just%20the%20message-8A2BE2
+<img width="39" height="20" alt="image" src="https://img.shields.io/badge/javascript-yellow?logo=javascript" />
 
 ### 👥 Duplas
 
