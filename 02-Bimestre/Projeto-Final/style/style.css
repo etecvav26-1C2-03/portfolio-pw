@@ -1,1 +1,271 @@
-aaaaaaaa
+/* reset da margem */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* cores inspiradas na raposa e globais */
+:root {
+  --raposa-laranja: #f2921d;
+  --raposa-laranja-escuro: #cc7a10;
+  --raposa-preto: #1a1a1a;
+  --raposa-branco: #ffffff;
+  --raposa-cinza: #e8e8e8;
+}
+
+body {
+  background-color: var(--raposa-branco);
+  color: var(--raposa-preto);
+  line-height: 1.6;
+}
+
+/* HEADER */
+.header {
+  background-color: var(--raposa-preto);
+  padding: 30px 40px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  text-align: left;
+  border-bottom: 5px solid var(--raposa-laranja);
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+}
+
+.header-title {
+  font-size: 2rem;
+  color: var(--raposa-laranja);
+  margin-bottom: 8px;
+}
+
+.header-subtitle {
+  font-size: 1rem;
+  font-weight: normal;
+  color: var(--raposa-cinza);
+}
+
+/* MAIN */
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.main-title,
+.section-title {
+  color: var(--raposa-laranja-escuro);
+  border-left: 4px solid var(--raposa-laranja);
+  padding-left: 10px;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.main-content,
+.section-subtitle {
+  text-align: justify;
+}
+
+.section-subtitle a {
+  color: var(--raposa-laranja-escuro);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section-subtitle a:hover {
+  color: var(--raposa-laranja);
+  text-decoration: underline;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  padding: 0 20px;
+}
+
+/* FOOTER de cada pagina  */
+.footer {
+  background-color: var(--raposa-preto);
+  text-align: center;
+  padding: 25px 15px;
+  margin-top: 40px;
+}
+
+.member-contact {
+  display: inline-block;
+  margin: 8px 12px;
+  color: var(--raposa-branco);
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.member-contact:hover {
+  color: var(--raposa-laranja);
+}
+
+.footer p {
+  margin-top: 15px;
+  font-size: 0.85rem;
+  color: var(--raposa-cinza);
+}
+
+/* ---- essa parte e pro index ---- */
+
+.main-content {
+  padding: 20px;
+}
+
+.card-summary {
+  text-align: center;
+  color: var(--raposa-laranja-escuro);
+  margin: 30px 0 20px 0;
+}
+
+/* deixa o card inteiro clicável sem link feio  */
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--raposa-preto);
+  border-radius: 12px;
+  padding: 15px 20px;
+  max-width: 700px;
+  margin: 15px auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+  transition: 0.2s;
+}
+
+.card-link:hover .card {
+  box-shadow: 0 4px 14px rgba(0,0,0,0.5);
+  transform: translateY(-2px);
+}
+
+.card-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--raposa-laranja);
+}
+
+.card-title {
+  font-size: 1.1rem;
+  color: var(--raposa-laranja);
+}
+
+.card-description {
+  font-size: 0.9rem;
+  color: var(--raposa-cinza);
+}
+
+/* footer grande do index */
+.team-footer {
+  background-color: var(--raposa-preto);
+  padding: 30px 20px;
+  color: var(--raposa-branco);
+}
+
+.team-footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.group-title {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  color: var(--raposa-laranja);
+}
+
+.group-meta p {
+  font-size: 0.85rem;
+  color: var(--raposa-cinza);
+}
+
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+  flex: 1;
+}
+
+.member-card {
+  background-color: var(--raposa-branco);
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.member-name {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+  color: var(--raposa-preto);
+}
+
+.member-card .member-contact {
+  color: var(--raposa-preto);
+}
+
+.member-card .member-contact:hover {
+  color: var(--raposa-laranja-escuro);
+}
+
+/* personalizado para celular fih ta achando uq */
+/* botão de voltar pro index nas páginas dos membros */
+.back-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: var(--raposa-laranja);
+  color: var(--raposa-preto);
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.85rem;
+  transition: 0.2s;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  z-index: 10;
+}
+
+.back-button:hover {
+  background-color: var(--raposa-laranja-escuro);
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .team-footer-container {
+    flex-direction: column;
+  }
+}
