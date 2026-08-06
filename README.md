@@ -2,7 +2,7 @@
 
 - Turma: 1C2
 - Disciplina: PW - PROGRAMAÇÃO E WEB
-- Grupo: Eduardo, Felipe, Gabriel e Guilherme
+- Grupo: Cauan, Eduardo, Felipe, Gabriel, Guilherme e Richard
 
 ### 🎯 Objetivo
 - Este portfólio foi desenvolvido com o objetivo de registrar e apresentar os conhecimentos adquiridos na disciplina de PW (Programação e Web) conforme os professores Ronildo e Madureira pediram. Ao longo das atividades, estudamos diversas linguagens e aprendemos a resolver problemas com elas.
@@ -18,10 +18,10 @@
 ### ➡️ Futura linguagem
 <img width="90" height="20" alt="image" src="https://img.shields.io/badge/javascript-yellow?logo=javascript" />
 
-### 👥 Duplas
+### 👥 Trios
 
-- {Eduardo e Guilherme}
-- {Felipe e Gabriel}
+- {Eduardo, Guilherme e Richard}
+- {Cauan, Felipe e Gabriel}
 
 
 ---
